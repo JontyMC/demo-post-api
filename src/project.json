@@ -1,0 +1,12 @@
+{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "Kestrel": "1.0.0-beta4"
+    },
+    "commands": {
+        "kestrel": "Microsoft.AspNet.Hosting --server Kestrel --server.urls http://localhost:5004"
+    },
+    "frameworks": {
+        "dnx451": { }
+    }
+}
